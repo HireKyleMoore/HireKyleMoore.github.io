@@ -1,3 +1,10 @@
-body  {
-  color: blue;
+//style.scss
+//compiles to style.css
+
+//FONT SIZE DEFINITIONS
+$h1-size : 253px;
+$h2-size : 93px;
+
+h1 {
+  font-size: $h1-size;
 }
