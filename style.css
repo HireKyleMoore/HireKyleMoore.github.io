@@ -1,5 +1,6 @@
 nav {
   background-color: #6CB5F3;
+  transition: background-color 200ms linear;
 }
 nav a {
   text-decoration: none;
