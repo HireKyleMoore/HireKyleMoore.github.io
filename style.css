@@ -40,6 +40,10 @@ h1 {
   font-size: 12px;
 }
 
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
 #about {
   background-color: #6CB5F3;
 }
