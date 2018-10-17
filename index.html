@@ -23,18 +23,20 @@
   })(document);
 </script>
     <title>Kyle Moore - Developer - UI/UX - Marketer - PM</title>
+    
+    <script src="jquery-3.3.1.min.js"></script>
+    <script>
+    $(function () {
+    $(document).scroll(function () {
+    var $nav = $(".navbar-fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+});
+});
+    </script>
   </head>
   <body>
     <!--link to script.js-->
 
-    <script>
-    $(function () {
-$(document).scroll(function () {
-var $nav = $(".navbar-fixed-top");
-$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-});
-});
-    </script>
 
     <!--MARKUP FOR NAVBAR-->
 
