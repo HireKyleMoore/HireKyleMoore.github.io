@@ -37,13 +37,12 @@ nav {
 
 }
 .fixed-top.scrolled {
-  background-color: #fff !important;
+  background-color: #7A7B7B !important;
   transition: background-color 200ms linear;
+  opacity: 0.9;
 }
 
-.fixed-top.scrolled .nav-link {
-  color:#555;
-}
+
 h1 {
   font-size: 12px;
 }
