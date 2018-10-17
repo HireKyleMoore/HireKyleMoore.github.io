@@ -45,12 +45,13 @@ body {
   font-family: "Montserrat", "sans-serif" !important;
 }
 
-#about {
+#about-text {
   background-color: #6CB5F3;
 }
 
-.transition {
-  width: 100%;
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
