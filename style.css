@@ -21,6 +21,7 @@ nav a:before {
   transition: all 0.3s ease-in-out 0s;
 }
 nav a:hover:before {
+  color: white;
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
