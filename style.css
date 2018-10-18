@@ -40,7 +40,7 @@ nav a:hover:before {
 h1 {
   font-size: 12px;
   margin: 0;
-  margin-bottom: 0px;
+  margin-bottom: 0px !important;
   padding-bottom: 0px;
 }
 
