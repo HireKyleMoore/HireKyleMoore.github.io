@@ -39,7 +39,7 @@ nav a:hover:before {
 }
 
 h1 {
-  font-size: 120px !important;
+  font-size: 150px !important;
   margin: 0;
   margin-bottom: 0px !important;
   padding-bottom: 0px;
@@ -63,8 +63,10 @@ body {
 .about-text {
   margin: 0;
   font-size: 30px !important;
-  line-height: 2em;
-
+  line-height: 2.5em;
+}
+.btn {
+  margin-top: 2.5em !important;
 }
 
 /*# sourceMappingURL=style.css.map */
