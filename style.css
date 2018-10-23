@@ -107,5 +107,19 @@ h2 {
   border-radius: 100%;
   font-size: 50px;
 }
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: #727B83;
+}
+.skill-card-description {
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  color: #727B83;
+
+}
 
 /*# sourceMappingURL=style.css.map */
