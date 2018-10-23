@@ -85,6 +85,8 @@ h2 {
 }
 .skill-card {
   background-color: white !important;
+  width: 80%;
+  margin: auto;
 }
 #skills-content {
   margin-top: 50px;
