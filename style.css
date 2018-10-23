@@ -65,11 +65,13 @@ body {
 #skills {
   background-color: #7A99E2;
 }
+
 .about-text {
   margin: 0;
   font-size: 40px !important;
   line-height: 2.5em;
 }
+
 .btn {
   margin-top: 2.5em !important;
 }
