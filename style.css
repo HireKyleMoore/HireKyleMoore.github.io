@@ -98,7 +98,7 @@ h2 {
   background-color: #acf3f8;
   width: 150px;
   height: 150px;
-  align-items: center;
+  text-align:center;
   margin: auto;
   border-radius: 100%;
   font-size: 50px;
