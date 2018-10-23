@@ -110,9 +110,9 @@ h2 {
 h3 {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 20px !important;
   text-align: center;
-  color: #727B83;
+  color: #727B83 !important;
 }
 .skill-card-description {
   width: 80%;
