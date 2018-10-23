@@ -85,9 +85,10 @@ h2 {
 }
 .skill-card {
   background-color: white !important;
-  width: 80%;
+  width: 90%;
   margin: auto;
   margin-bottom: 50px;
+  padding-top: 10px;
 }
 #skills-content {
   margin-top: 50px;
@@ -95,15 +96,32 @@ h2 {
 
 .skills-icon {
   color: white;
-  background-color: #acf3f8;
-  width: 150px;
-  height: 150px;
+  background-color: #7A99E2;
+  width: 100px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin: auto;
+  margin-top: 20px;
   border-radius: 100%;
   font-size: 50px;
+}
+h3 {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  font-size: 20px !important;
+  text-align: center;
+  color: #727B83 !important;
+}
+.skill-card-description {
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  color: #727B83;
+  font-size: 12px;
+  padding-bottom: 20px !important;
+
 }
 
 /*# sourceMappingURL=style.css.map */
