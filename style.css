@@ -83,5 +83,11 @@ h2 {
   padding-top:0;
   color: white !important;
 }
+.skill-card {
+  background-color: white !important;
+}
+#skills-content {
+  margin-top: 50px;
+}
 
 /*# sourceMappingURL=style.css.map */
