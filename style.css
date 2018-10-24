@@ -131,10 +131,13 @@ h3 {
 }
 .project-img-background {
   background-color:white;
-  height: 400px;
+  height: 350px;
 }
 .project-img {
   margin: auto;
-  width: 80%;
+  width: 100%;
+}
+img {
+  display:block;
 }
 /*# sourceMappingURL=style.css.map */
