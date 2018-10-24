@@ -134,6 +134,7 @@ h3 {
   height: 350px;
   display: flex;
   align-items: center;
+  padding: 10px;
 }
 .project-img {
   margin: auto;
