@@ -132,6 +132,8 @@ h3 {
 .project-img-background {
   background-color:white;
   height: 350px;
+  display: flex;
+  align-items: center;
 }
 .project-img {
   margin: auto;
