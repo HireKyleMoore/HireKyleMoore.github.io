@@ -144,8 +144,8 @@ img {
   display:block;
   margin:auto;
 }
-.projects-content {
+#projects-content {
   margin-top: 50px !important;
-  margin-bottom:20px !important;
+  margin-bottom:50px !important;
 }
 /*# sourceMappingURL=style.css.map */
