@@ -121,7 +121,9 @@ h3 {
   color: #727B83;
   font-size: 12px;
   padding-bottom: 20px !important;
-
+}
+#projects {
+  background-color: #99599B;
 }
 
 /*# sourceMappingURL=style.css.map */
