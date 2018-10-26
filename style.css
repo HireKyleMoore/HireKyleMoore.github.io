@@ -134,12 +134,11 @@ h3 {
   height: 500px;
   display: flex;
   align-items: center;
-  padding: 30px;
   margin-bottom: 30px;
 }
 .project-img {
   margin: auto;
-  width: 100%;
+  width: 90%;
 }
 img {
   display:block;
