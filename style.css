@@ -153,4 +153,9 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+#contact-content {
+  width: 90% !important;
+  margin:auto;
+}
+
 /*# sourceMappingURL=style.css.map */
