@@ -126,4 +126,26 @@ h3 {
   background-color: #99599B;
 }
 
+#contact {
+  background-color: #9A3A6A;
+}
+.project-img-background {
+  background-color:white;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+.project-img {
+  margin: auto;
+  width: 100%;
+}
+img {
+  display:block;
+  margin:auto;
+}
+#projects-content {
+  margin-top: 50px !important;
+  padding-bottom: 50px !important;
+}
 /*# sourceMappingURL=style.css.map */
