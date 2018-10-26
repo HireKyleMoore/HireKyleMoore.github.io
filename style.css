@@ -157,6 +157,9 @@ img {
   width: 90% !important;
   margin:auto;
 }
+#contact-left {
+  margin-right: 20px;
+}
 .contact-card {
   background-color: white;
 }
