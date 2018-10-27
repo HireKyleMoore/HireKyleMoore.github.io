@@ -152,6 +152,7 @@ img {
   width: 98%;
   margin:auto;
   font-size: 25px;
+  padding-bottom: 20px;
 
 }
 #contact-content .row {
@@ -177,8 +178,6 @@ h2 {
 #contact-icon-links .contact-icon {
   margin-bottom: 20px !important;
 }
-.transition {
-  padding-top: 20px;
-}
+
 
 /*# sourceMappingURL=style.css.map */
