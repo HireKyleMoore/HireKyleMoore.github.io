@@ -222,7 +222,7 @@ label {
 .inputMaterial:focus ~ label, .inputMaterial:valid ~ label {
   top: -20px;
   font-size: 14px;
-  color: #009688;
+  color: #9A3A6A;
 }
 
 /* BOTTOM BARS ================================= */
@@ -238,7 +238,7 @@ label {
   width: 0;
   bottom: 1px;
   position: absolute;
-  background: #009688;
+  background: #9A3A6A;
   transition: 0.2s ease all;
   -moz-transition: 0.2s ease all;
   -webkit-transition: 0.2s ease all;
