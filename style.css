@@ -174,7 +174,7 @@ img {
 h2 {
   margin-bottom: 40px !important;
 }
-#contact-icon-links i {
+#contact-icon-links .contact-icon {
   margin-bottom: 20px;
 }
 /*# sourceMappingURL=style.css.map */
