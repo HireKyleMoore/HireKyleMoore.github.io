@@ -267,7 +267,7 @@ label {
 /* ANIMATIONS ================ */
 @-webkit-keyframes inputHighlighter {
   from {
-    background: #5264AE;
+    background: #9A3A6A;
   }
   to {
     width: 0;
@@ -276,7 +276,7 @@ label {
 }
 @-moz-keyframes inputHighlighter {
   from {
-    background: #5264AE;
+    background: #9A3A6A;
   }
   to {
     width: 0;
@@ -285,7 +285,7 @@ label {
 }
 @keyframes inputHighlighter {
   from {
-    background: #5264AE;
+    background: #9A3A6A;
   }
   to {
     width: 0;
