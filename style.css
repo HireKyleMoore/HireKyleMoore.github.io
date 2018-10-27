@@ -165,8 +165,10 @@ img {
 .contact-icon {
   font-size: 30px;
   text-align: center;
+
 }
 #contact-right {
+  width:97%;
   margin-left: 20px;
 }
 
