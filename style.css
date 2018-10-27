@@ -152,11 +152,12 @@ img {
   margin-right: auto;
 }
 #contact-content {
-
+  width: 95%;
   margin:auto;
 }
 #contact-content .row {
   margin-bottom:20px;
+
 }
 .contact-card {
   padding-top: 40px;
