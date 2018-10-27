@@ -292,6 +292,9 @@ label {
     background: transparent;
   }
 }
+#form-content {
+  width: 90%;
+}
 
 
 
