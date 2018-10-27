@@ -172,7 +172,7 @@ img {
   margin-right: -10px;
 }
 h2 {
-  margin-bottom: 20px;
+  margin-bottom: 20px !important;
 }
 
 /*# sourceMappingURL=style.css.map */
