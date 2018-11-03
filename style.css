@@ -319,7 +319,10 @@ label {
 }
 #footer p {
   font-size:18px;
-  font-weight: bold;
+
+}
+#footer li {
+  padding-bottom: 5px;
 }
 
 
