@@ -330,17 +330,7 @@ label {
   padding-right: 2.5px;
   padding-left: 2.5px;
 }
-.text {
-/*  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center; */
-}
+
 .overlay {
   position: absolute;
   bottom: 0;
@@ -364,7 +354,11 @@ label {
 
 }
 
-
+@media only screen and (max-width: 768px) {
+  #contact-right {
+    margin: auto;
+  }
+}
 
 
 /*# sourceMappingURL=style.css.map */
