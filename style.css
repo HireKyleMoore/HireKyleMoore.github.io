@@ -312,6 +312,9 @@ label {
 #footer .row {
   margin-right:auto;
 }
+#footer ul {
+  text-decoration: none;
+}
 
 
 
