@@ -304,6 +304,9 @@ label {
 .group {
   margin-bottom: 20px;
 }
+#contact .btn {
+  margin-top: 0;
+}
 
 
 
