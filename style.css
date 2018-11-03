@@ -324,7 +324,9 @@ label {
 #footer li {
   padding-bottom: 5px;
 }
-
+#footer i {
+  font-size: 20px;
+}
 
 
 
