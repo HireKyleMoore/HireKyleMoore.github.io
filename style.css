@@ -331,6 +331,66 @@ label {
   padding-left: 2.5px;
 }
 
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #DBDBDB;
+  opacity: .9;
+  overflow: hidden;
+  width: calc(100% - 30px);
+  height: 0;
+  transition: .5s ease;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+
+}
+.project-img-background:hover .overlay {
+  height: 350px;
+
+}
+@media only screen and (max-width: 1200px) { /*responsive styling on contact section*/
+  #contact-content {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 992px) { /*responsive styling on contact section*/
+  #contact-right {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+  }
+
+  #contact-content {
+    font-size: 35px;
+  }
+  #contact-content i {
+    font-size: 50px;
+  }
+}
+@media(max-width: 786px) {
+  #contact-content {
+    font-size: 25px;
+  }
+  #contact-content i {
+    font-size: 40px;
+  }
+}
+@media(max-width: 576px) {
+  #contact-content {
+    font-size: 15px;
+  }
+  #contact-content i {
+    font-size: 30px;
+  }
+  h2 {
+    padding-top: 30px;
+  }
+}
 
 
 
