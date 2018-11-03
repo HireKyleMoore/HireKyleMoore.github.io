@@ -382,7 +382,7 @@ label {
 }
 @media(max-width: 576px) {
   #contact-content {
-    font-size: 20px;
+    font-size: 15px;
   }
   #contact-content i {
     font-size: 30px;
