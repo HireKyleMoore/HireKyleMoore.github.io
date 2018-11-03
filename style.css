@@ -352,6 +352,7 @@ label {
   height: 0;
   transition: .5s ease;
   margin-bottom: 40px;
+  height: 350px;
 }
 .project-img:hover .overlay {
   height: 100%;
