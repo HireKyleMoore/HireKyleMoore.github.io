@@ -353,13 +353,18 @@ label {
   height: 350px;
 
 }
-
+@media only screen and (max-width: 1200px) { /*responsive styling on contact section*/
+  #contact-content {
+    font-size: 20px;
+  }
+}
 @media only screen and (max-width: 992px) { /*responsive styling on contact section*/
   #contact-right {
     margin-right: auto;
     margin-left: auto;
     margin-top: 30px;
   }
+
 
 }
 
