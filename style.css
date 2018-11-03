@@ -351,8 +351,7 @@ label {
   width: 100% - 30px;
   height: 0;
   transition: .5s ease;
-  margin-bottom: 40px;
-  margin-left: 15px;
+  margin: auto;
 
 
 }
