@@ -393,6 +393,9 @@ label {
   h1 {
     font-size: 100px;
   }
+  #contact-right .row {
+    margin-bottom: 0px;
+  }
 }
 
 
