@@ -90,9 +90,7 @@ h2 {
   margin-bottom: 50px;
   padding-top: 10px;
 }
-#skills-content {
-  margin-top: 50px;
-}
+
 
 .skills-icon {
   color: white;
@@ -134,18 +132,206 @@ h3 {
   height: 350px;
   display: flex;
   align-items: center;
-  padding: 30px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .project-img {
   margin: auto;
-  width: 100%;
+  width: 90%;
 }
 img {
   display:block;
   margin:auto;
 }
 #projects-content {
-  margin-top: 50px !important;
-  padding-bottom: 50px !important;
+  margin-left: auto;
+  margin-right: auto;
 }
+#contact-content {
+  width: 98%;
+  margin:auto;
+  font-size: 25px;
+  padding-bottom: 100px;
+
+}
+#contact-content .row {
+  margin-bottom:20px;
+
+}
+.contact-card {
+  padding-top: 40px;
+  background-color: white;
+}
+.contact-icon {
+  font-size: 40px;
+  text-align: center;
+
+}
+#contact-right {
+  margin-left:10px;
+  margin-right: -10px;
+}
+h2 {
+  margin-bottom: 60px !important;
+}
+#contact-icon-links .contact-icon {
+  margin-bottom: 20px !important;
+}
+
+#footer {
+  background-color: #C9C9C9;
+  text-align: center;
+}
+hr {
+  color: black;
+  background-color: black;
+}
+.group {
+  position: relative;
+}
+
+.inputMaterial {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+
+.inputMaterial:focus {
+  outline: none;
+}
+
+/* LABEL ======================================= */
+label {
+  color: #999;
+  font-size: 14px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+/* active state */
+.inputMaterial:focus ~ label, .inputMaterial:valid ~ label {
+  top: -20px;
+  font-size: 14px;
+  color: #9A3A6A;
+}
+
+/* BOTTOM BARS ================================= */
+.bar {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.bar:before, .bar:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: #9A3A6A;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+.bar:before {
+  left: 50%;
+}
+
+.bar:after {
+  right: 50%;
+}
+
+/* active state */
+.inputMaterial:focus ~ .bar:before, .inputMaterial:focus ~ .bar:after {
+  width: 50%;
+}
+
+/* active state */
+.inputMaterial:focus ~ .highlight {
+  -webkit-animation: inputHighlighter 0.3s ease;
+  -moz-animation: inputHighlighter 0.3s ease;
+  animation: inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+  from {
+    background: #9A3A6A;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+@-moz-keyframes inputHighlighter {
+  from {
+    background: #9A3A6A;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+@keyframes inputHighlighter {
+  from {
+    background: #9A3A6A;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+#form-content {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+ #contact-right .row {
+   margin-bottom: 20px;
+ }
+
+.group {
+  margin-bottom: 20px;
+}
+#contact .btn {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  width: 100% !important;
+}
+#footer .row {
+  margin-right:auto;
+}
+#footer ul {
+  text-decoration: none;
+  list-style: none;
+    padding-left: 0;
+}
+#footer p {
+  padding-top: 20px;
+  font-size:20px;
+
+}
+#footer li {
+  padding-bottom: 10px;
+}
+#footer i {
+  font-size: 25px;
+  padding-right: 2.5px;
+  padding-left: 2.5px;
+}
+
+
+
+
 /*# sourceMappingURL=style.css.map */

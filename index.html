@@ -22,8 +22,9 @@
 
 
     <!--MARKUP FOR NAVBAR-->
-
-    <nav class="navbar navbar-dark fixed-top container-fluid">
+<div class = "container-fluid">
+  <div class = "row">
+    <nav class="navbar navbar-dark fixed-top">
 
         <ul class = "nav nav-fill w-100 align-items-start">
 
@@ -46,6 +47,8 @@
         </ul>
 
     </nav>
+  </div>
+  </div>
 
 <!--ABOUT SECTION-->
 
@@ -64,7 +67,7 @@
 
 <!--ABOUT SKILLS TRANSITION-->
 
-      <div id = "about-skills-transition">
+      <div class = "transition">
         <svg viewBox="0 0 100 7">
           <polygon id="e1_polygon" style="" points="0 0, 100 0, 100 7" fill="#6CB5F3"/>
           <polygon id="e1_polygon" style="" points="0 0, 0 7, 100 7" fill="#7A99E2"/>
@@ -127,7 +130,7 @@
         </div>
       </div>
 
-      <div id = "skills-projects-transition">
+      <div class = "transition">
         <svg viewBox="0 0 100 7">
           <polygon id="e1_polygon" style="" points="0 0, 0 7, 100 0" fill="#7A99E2"/>
           <polygon id="e1_polygon" style="" points="0 7, 100 7, 100 0" fill="#99599B"/>
@@ -162,35 +165,150 @@
         </div>
       </div>
 
-      <div id = "projects-contact-transition">
+      <div class = "transition">
         <svg viewBox="0 0 100 7">
           <polygon id="e1_polygon" style="" points="0 0, 100 0, 100 7" fill="#99599B"/>
           <polygon id="e1_polygon" style="" points="0 0, 0 7, 100 7" fill="#9A3A6A"/>
         </svg>
       </div>
 
+<!--CONTACT SECTION-->
       <div id = "contact" class = "container-fluid">
-        <h2>Contact<h2>
-          <h1>Lorem</h1>
-          <h1>Lorem</h1>
-          <h1>Lorem</h1>
-          <h1>Lorem</h1>
-          <h1>Lorem</h1>
-          <h1>Lorem</h1>
-          <h1>Lorem</h1>
-          <h1>Lorem</h1>
+        <h2>Contact</h2>
+        <div class = "row" id = "contact-content">
+          <div id = "contact-left" class = "col-md-5 contact-card">
+            <div class = "row align-items-center">
+              <div class = "col-md-4 contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class = "col-md-8">
+                (206)-595-6734
+              </div>
+            </div>
+            <div class = "row align-items-center">
+              <div class = "col-md-4 contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class = "col-md-8">
+                kmoore.enver@gmail.com
+              </div>
+            </div>
+            <div class = "row">
+              <div class = "col-md-12">
+              <hr>
+            </div>
+            </div>
 
-          <h1>Lorem</h1>
-          <h1>Lorem</h1>
-          <h1>Lorem</h1>
-          <h1>Lorem</h1>
-          <h1>Lorem</h1>
-          <h1>Lorem</h1>
-          <h1>Lorem</h1>
-          <h1>Lorem</h1>
+            <div class = "row" id = "contact-icon-links">
+              <div class = "col-md-4 contact-icon">
+                <i class="fab fa-github"></i>
+              </div>
+              <div class = "col-md-4 contact-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </div>
+              <div class = "col-md-4 contact-icon">
+                <i class="fab fa-instagram"></i>
+              </div>
+              <div class = "col-md-4 contact-icon">
+                <i class="fab fa-facebook-square"></i>
+              </div>
+            </div>
+          </div>
+          <div id = "contact-right" class = "col-md-7 contact-card">
+            <div id = "form-content">
+              <form action = "" method = "post">
+                <div class = "row">
+                  <div class = "col-md-6">
+                    <div class="group">
+                      <input class="inputMaterial" type="text" required>
+                      <span class="highlight"></span>
+                      <span class="bar"></span>
+                      <label>First Name</label>
+                    </div>
+                  </div>
+                  <div class = "col-md-6">
+                    <div class="group">
+                      <input class="inputMaterial" type="text" required>
+                      <span class="highlight"></span>
+                      <span class="bar"></span>
+                      <label>Last Name</label>
+                    </div>
+                  </div>
+                </div>
+                <div class = "row">
+                  <div class = "col-md-6">
+                    <div class="group">
+                      <input class="inputMaterial" type="text" required>
+                      <span class="highlight"></span>
+                      <span class="bar"></span>
+                      <label>Email</label>
+                    </div>
+                  </div>
+                  <div class = "col-md-6">
+                    <div class="group">
+                      <input class="inputMaterial" type="tel" required>
+                      <span class="highlight"></span>
+                      <span class="bar"></span>
+                      <label>Phone</label>
+                    </div>
+                  </div>
+                </div>
+                <div class = "row">
+                  <div class = "col-md-12">
+                    <div class="group">
+                      <textarea  rows = "3" class = "inputMaterial" required></textarea>
+                      <span class="highlight"></span>
+                      <span class="bar"></span>
+                      <label>Enter Message Here</label>
+                    </div>
+                  </div>
+                </div>
+                <div class = "row  justify-content-center">
+                  <div class = "col-md-3 ">
+                    <button type="button" class="btn btn-dark btn-lg">Submit</button>
+                  </div>
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
 
-          <h1>Lorem</h1><h1>Lorem</h1>
-          <h1>Lorem</h1>
+      <div class = "transition">
+        <svg viewBox="0 0 100 7">
+          <polygon id="e1_polygon" style="" points="0 0, 0 7, 100 0" fill="#9A3A6A"/>
+          <polygon id="e1_polygon" style="" points="0 7, 100 7, 100 0" fill="#C9C9C9"/>
+        </svg>
+      </div>
+
+      <!--FOOTER-->
+
+      <div class = "containter-fluid" id = "footer">
+
+          <div class = "row justify-content-center ">
+            <div class = "col-md-3">
+              <p>Links</p>
+              <ul>
+                <li><a href = "#">About</a></li>
+                <li><a href = "#"></a>Skills</li>
+                <li><a href = "#"></a>Projects</li>
+                <li><a href = "#"></a>Content</li>
+              </ul>
+            </div>
+            <div class = "col-md-3">
+              <p>Contact</p>
+                <ul>
+                  <li>Phone: (206)-595-6734</li>
+                  <li>Email: kmoore.enver@gmail.com</li>
+                </ul>
+            </div>
+            <div class = "col-md-3">
+              <p>Social</p>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-facebook-square"></i>
+            </div>
+          </div>
+
       </div>
 
     <!-- Optional JavaScript -->
