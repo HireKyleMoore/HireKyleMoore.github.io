@@ -352,7 +352,7 @@ label {
   height: 0;
   transition: .5s ease;
 }
-.project-img-background .overlay {
+.project-img-background:hover .overlay {
   height: 100%;
 }
 
