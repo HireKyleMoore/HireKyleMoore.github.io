@@ -368,6 +368,9 @@ label {
   #contact-content {
     font-size: 35px;
   }
+  #contact-content i {
+    font-size: 50px;
+  }
 }
 
 
