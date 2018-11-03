@@ -322,11 +322,11 @@ label {
 
 }
 #footer li {
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 #footer i {
   font-size: 25px;
-
+  padding-right: 5px;
 }
 
 
