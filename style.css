@@ -155,7 +155,7 @@ img {
   padding-bottom: 100px;
 
 }
-#contact .row {
+#contact-content .row {
   margin-bottom:20px;
 
 }
@@ -297,7 +297,9 @@ label {
   margin-left: auto;
   margin-right: auto;
 }
-
+ #contact-right .row {
+   margin-bottom: 20px;
+ }
 
 
 
