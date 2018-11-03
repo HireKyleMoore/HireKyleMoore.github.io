@@ -376,10 +376,16 @@ label {
   #contact-content {
     font-size: 30px;
   }
+  #contact-content i {
+    font-size: 40px;
+  }
 }
 @media(max-width: 576px) {
   #contact-content {
     font-size: 20px;
+  }
+  #contact-content i {
+    font-size: 30px;
   }
 }
 
