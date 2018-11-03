@@ -354,10 +354,13 @@ label {
 
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 992px) { /*responsive styling on contact section*/
   #contact-right {
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
   }
+
 }
 
 
