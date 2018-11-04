@@ -397,7 +397,23 @@ label {
     margin-bottom: 0px;
   }
 }
-[data-aos="grid-left"] {
+[data-aos="new-animation"] {
+  opacity: 0;
+  transition-property: transform, opacity;
+
+  &.aos-animate {
+    opacity: 1;
+  }
+
+  @media screen and (min-width: 768px) {
+    transform: translateX(100px);
+
+    &.aos-animate {
+      transform: translateX(0);
+    }
+  }
+}
+/*[data-aos="grid-left"] {
       opacity: 0;
       transition-property: opacity, transform;
 
@@ -406,7 +422,7 @@ label {
         transform: none;
       }
     }
-
+*/
 /*  @media screen and (min-width: 768px) {
 
       transform: translate3d(0, $aos-distance, 0);
