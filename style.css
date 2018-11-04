@@ -399,10 +399,10 @@ label {
 }
 [data-aos="grid-left"] {
       opacity: 0;
-  
+      transition-property: opacity, transform;
 
       &.aos-animate {
-        opacity: 0;
+        opacity: 1;
         transform: none;
       }
 
