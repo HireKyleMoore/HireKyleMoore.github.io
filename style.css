@@ -397,7 +397,7 @@ label {
     margin-bottom: 0px;
   }
 }
-[data-aos="grid-left"] {
+[data-aos="animation"] {
   opacity: 0;
   transition-property: transform, opacity;
 
