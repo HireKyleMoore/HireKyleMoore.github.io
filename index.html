@@ -5,6 +5,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Condensed" rel="stylesheet">
     <!--link to style.css-->
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -53,11 +54,11 @@
 <!--ABOUT SECTION-->
 
       <div id = "about" class = "container-fluid">
-        <div class = "row" id = "about-content">
-          <div class = "col-0 col-md-4 col-lg-5">
-          </div>
-          <div class = "col-12 col-md-8 col-lg-7 ">
-            <p class = "about-text"> Hi, my name is</p>
+        <div class = "row" id = "about-content"  data-aos="zoom-in-fade" data-aos-duration = "1200">
+         <div class = "col-0  col-lg-5">
+      </div>
+          <div class = "col-12 col-lg-7 ">
+            <p class = "about-text" > Hi, my name is</p>
             <h1>Kyle Moore</h1>
             <p class = "about-text">I'm a front end developer, digital marketer, UI/UX designer, and project manager.</p>
             <button type="button" class="btn btn-outline-light">Download my Resume</button>
@@ -80,7 +81,7 @@
 
         <div class = "row" id = "skills-content">
           <div class = "col-lg-4 col-md-6 col-sm-12">
-            <div class = "skill-card">
+            <div class = "skill-card" data-aos="zoom-in-fade" data-aos-duration = "1200" data-aos-offset = "300">
               <div class="skills-icon">
                 <i class="fas fa-laptop-code"></i>
               </div>
@@ -93,7 +94,7 @@
           </div>
 
           <div class = "col-lg-4 col-md-6 col-sm-12">
-              <div class = "skill-card">
+              <div class = "skill-card" data-aos="zoom-in-fade" data-aos-duration = "1200" data-aos-offset = "300">
                 <div class="skills-icon">
                   <i class="fas fa-pen-fancy"></i>
                 </div>
@@ -105,7 +106,7 @@
           </div>
 
           <div class = "col-lg-4 col-md-6 col-sm-12">
-              <div class = "skill-card">
+              <div class = "skill-card" data-aos="zoom-in-fade" data-aos-duration = "1200" data-aos-offset = "300">
                 <div class="skills-icon">
                   <i class="fas fa-clipboard-list"></i>
                 </div>
@@ -117,7 +118,7 @@
           </div>
 
           <div class = "col-lg-4 col-md-6 col-sm-12">
-            <div class = "skill-card">
+            <div class = "skill-card" data-aos="zoom-in-fade" data-aos-duration = "1200" data-aos-offset = "300">
               <div class="skills-icon">
                 <i class="fas fa-bullhorn"></i>
               </div>
@@ -141,8 +142,8 @@
       <div id = "projects" class = "container-fluid">
         <h2>Projects</h2>
         <div class = "row" id = "projects-content">
-          <div class = "col-lg-4 col-md-6 col-sm-12">
-            <div class = "project-img-background">
+          <div class = "col-lg-4 col-md-6 col-sm-12" data-aos="zoom-in-fade" data-aos-duration = "1200" data-aos-offset = "300">
+            <div class = "project-img-background" >
               <div class = "project-img">
                   <img class = "img-fluid img-responsive" src = "kyle-website-assets/enver-logo.png">
                   <div class="overlay">
@@ -152,8 +153,8 @@
 
             </div>
           </div>
-          <div class = "col-lg-4 col-md-6 col-sm-12">
-            <div class = "project-img-background">
+          <div class = "col-lg-4 col-md-6 col-sm-12" data-aos="zoom-in-fade" data-aos-duration = "1200" data-aos-offset = "300">
+            <div class = "project-img-background" >
               <div class = "project-img">
                 <img class = "img-fluid img-responsive" src = "kyle-website-assets/annie-logo.png">
                 <div class="overlay">
@@ -162,7 +163,7 @@
               </div>
             </div>
           </div>
-          <div class = "col-lg-4 col-md-6 col-sm-12">
+          <div class = "col-lg-4 col-md-6 col-sm-12"  data-aos="zoom-in-fade" data-aos-duration = "1200" data-aos-offset = "300">
             <div class = "project-img-background">
               <div class = "project-img">
                   <img class = "img-fluid img-responsive" src = "kyle-website-assets/glacial-cryo-logo.png">
@@ -186,7 +187,7 @@
       <div id = "contact" class = "container-fluid">
         <h2>Contact</h2>
         <div class = "row" id = "contact-content">
-          <div id = "contact-left" class = "col-lg-5 col-md-12 contact-card">
+          <div id = "contact-left" class = "col-lg-5 col-md-12 contact-card" data-aos="fade-right" data-aos-duration = "1200" data-aos-offset = "300">
             <div class = "row align-items-center">
               <div class = "col-lg-2 col-xl-3 col-4 contact-icon">
                 <i class="fas fa-phone"></i>
@@ -224,7 +225,7 @@
               </div>
             </div>
           </div>
-          <div id = "contact-right" class = "col-lg-7 col-md-12 contact-card">
+          <div id = "contact-right" class = "col-lg-7 col-md-12 contact-card" data-aos="fade-left" data-aos-duration = "1200" data-aos-offset = "300">
             <div id = "form-content">
               <form action = "" method = "post">
                 <div class = "row">
@@ -323,7 +324,10 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
