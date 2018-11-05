@@ -3,7 +3,7 @@
 nav {
   background-color: #6CB5F3;
   transition: background-color 200ms linear;
-  margin-bottom: 30px;
+  
 }
 nav a {
   text-decoration: none;
