@@ -400,8 +400,8 @@ label {
   }
 }
  html:not(.no-js) {
-   @media screen {
-[data-aos="grid-left"] {
+
+[data-aos="animation"] {
   opacity: 0;
   transition-property: transform, opacity;
 
@@ -416,6 +416,5 @@ label {
       transform: translateX(0);
     }
   }
-}
 }
 }
