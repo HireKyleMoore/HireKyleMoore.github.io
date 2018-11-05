@@ -399,24 +399,3 @@ label {
     margin-bottom: 0px;
   }
 }
-
-/*[data-aos="grid-left"] {
-      opacity: 0;
-      transition-property: opacity, transform;
-
-      &.aos-animate {
-        opacity: 1;
-        transform: none;
-      }
-    }
-*/
-/*  @media screen and (min-width: 768px) {
-
-      transform: translate3d(0, $aos-distance, 0);
-
-
-  } */
-}
-
-
-/*# sourceMappingURL=style.css.map */
