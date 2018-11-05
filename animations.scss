@@ -31,16 +31,7 @@ html:not(.no-js) {
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-  [data-aos="grid-right"] {
-    opacity: 0;
-    transition-property: opacity, transform;
-    transform: translate3d(100px, 0, 0);
 
-    &.aos-animate {
-      opacity: 1;
-      transform: none;
-    }
-  }
 }
 
 // Large devices (desktops, 992px and up)
@@ -55,7 +46,16 @@ html:not(.no-js) {
       transform: none;
     }
   }
+  [data-aos="grid-right"] {
+    opacity: 0;
+    transition-property: opacity, transform;
+    transform: translate3d(100px, 0, 0);
 
+    &.aos-animate {
+      opacity: 1;
+      transform: none;
+    }
+  }
 
  }
 
