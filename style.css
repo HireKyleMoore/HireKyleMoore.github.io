@@ -401,7 +401,7 @@ label {
 }
  html:not(.no-js) {
 
-[data-aos="animation"] {
+[data-aos="animate"] {
   opacity: 0;
   transition-property: transform, opacity;
 
