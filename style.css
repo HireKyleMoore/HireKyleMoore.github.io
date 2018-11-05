@@ -4,14 +4,14 @@
   opacity: 0;
   transition-property: transform, opacity;
 
-  [data-aos="animation"].aos-animate {
+  &.aos-animate {
     opacity: 1;
   }
 
   @media screen and (min-width: 768px) {
     transform: translateX(100px);
 
-    [data-aos="animation"].aos-animate {
+    &.aos-animate {
       transform: translateX(0);
     }
   }
