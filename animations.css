@@ -10,7 +10,7 @@ html:not(.no-js) [data-aos=grid-center].aos-animate {
 html:not(.no-js) [data-aos=grid-right] {
   opacity: 0;
   transition-property: opacity, transform;
-  transform: translate3d(100px, 0, 0);
+  transform: translate3d(-100px, 0, 0);
 }
 html:not(.no-js) [data-aos=grid-right].aos-animate {
   opacity: 1;
@@ -29,7 +29,7 @@ html:not(.no-js) [data-aos=grid-right].aos-animate {
   html:not(.no-js) [data-aos=grid-right] {
     opacity: 0;
     transition-property: opacity, transform;
-    transform: translate3d(-100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
   }
   html:not(.no-js) [data-aos=grid-right].aos-animate {
     opacity: 1;
