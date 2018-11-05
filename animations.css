@@ -1,17 +1,10 @@
-html:not(.no-js) [data-aos=animate] {
+html:not(.no-js) [data-aos=grid-center] {
   opacity: 0;
-  transition-property: transform, opacity;
+  transition-property: opacity, transform;
 }
-html:not(.no-js) [data-aos=animate].aos-animate {
+html:not(.no-js) [data-aos=grid-center].aos-animate {
   opacity: 1;
-}
-@media screen and (min-width: 768px) {
-  html:not(.no-js) [data-aos=animate] {
-    transform: translateX(100px);
-  }
-  html:not(.no-js) [data-aos=animate].aos-animate {
-    transform: translateX(0);
-  }
+  transform: translate3d(100px, 0, 0);
 }
 
 /*# sourceMappingURL=animations.css.map */
