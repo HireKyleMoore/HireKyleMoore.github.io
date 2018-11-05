@@ -1,4 +1,6 @@
-
+html {
+  scroll-behavior: smooth;
+}
 
 nav {
   background-color: #6CB5F3;
