@@ -26,18 +26,19 @@ html:not(.no-js) {
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+  [data-aos="grid-center"] {
+    opacity: 0;
+    transition-property: opacity, transform;
+    transform: translate3d(0, 100px, 0);
+
+    &.aos-animate {
+      opacity: 1;
+      transform: none;
+    }
+  }
 
  }
-[data-aos="grid-center"] {
-  opacity: 0;
-  transition-property: opacity, transform;
-  transform: translate3d(0, 100px, 0);
 
-  &.aos-animate {
-    opacity: 1;
-    transform: none;
-  }
-}
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
 
