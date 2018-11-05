@@ -1,22 +1,5 @@
 
 
-[data-aos="animation"] {
-  opacity: 0;
-  transition-property: transform, opacity;
-
-  &.aos-animate {
-    opacity: 1;
-  }
-
-  @media screen and (min-width: 768px) {
-    transform: translateX(100px);
-
-    &.aos-animate {
-      transform: translateX(0);
-    }
-  }
-}
-
 nav {
   background-color: #6CB5F3;
   transition: background-color 200ms linear;
