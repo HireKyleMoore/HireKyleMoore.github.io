@@ -1,6 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  position: relative;
+}
 
 nav {
   background-color: #6CB5F3;
