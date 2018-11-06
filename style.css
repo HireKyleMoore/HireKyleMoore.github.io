@@ -407,18 +407,23 @@ label {
 }
 .overlay h3 {
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
+  color: black;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 .project-skills {
   display:block;
+  color: #727B83;
   width: 70%;
   padding-bottom: 15px;
+  margin: auto;
 
 }
 .project-description {
+    color: #727B83;
   display: block;
+  margin: auto;
   width: 70%;
-  
+
 }
