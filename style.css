@@ -415,6 +415,7 @@ label {
 .project-skills {
   display:block;
   color: #727B83;
+  color: black;
   width: 80%;
   text-align: center;
   padding-bottom: 15px;
