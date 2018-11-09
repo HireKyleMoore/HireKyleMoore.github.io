@@ -3,13 +3,16 @@
     // Only process POST reqeusts.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the form fields and remove whitespace.
-        $name = strip_tags(trim($_POST["name"]));
-				$name = str_replace(array("\r","\n"),array(" "," "),$name);
+        $firstname = strip_tags(trim($_POST["first_name"]));
+				$firstname = str_replace(array("\r","\n"),array(" "," "),$firstname);
+        $lastname = strip_tags(trim($_POST["last_name"]));
+				$lastname = str_replace(array("\r","\n"),array(" "," "),$lastname);
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
+        $phone = filter_var(trim($_POST["phone"]), FILTER_SANITIZE_NUMBER_INT);
         $message = trim($_POST["message"]);
 
         // Check that data was sent to the mailer.
-        if ( empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        if ( empty($first_name) OR empty($last_name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL) OR !filter_var($phone, FILTER_VALIDATE_NUMBER_INT)) {
             // Set a 400 (bad request) response code and exit.
             http_response_code(400);
             echo "Oops! There was a problem with your submission. Please complete the form and try again.";
@@ -17,19 +20,19 @@
         }
 
         // Set the recipient email address.
-        // FIXME: Update this to your desired email address.
+
         $recipient = "kmoore.enver@gmail.com";
 
         // Set the email subject.
-        $subject = "New contact from $name";
+        $subject = "New contact from $firstname $lastname";
 
         // Build the email content.
-        $email_content = "Name: $name\n";
+        $email_content = "Name: $firstname $lastname\n";
         $email_content .= "Email: $email\n\n";
         $email_content .= "Message:\n$message\n";
 
         // Build the email headers.
-        $email_headers = "From: $name <$email>";
+        $email_headers = "From: $firstname $lastname <$email>";
 
         // Send the email.
         if (mail($recipient, $subject, $email_content, $email_headers)) {
