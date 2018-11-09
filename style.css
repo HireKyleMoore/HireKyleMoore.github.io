@@ -147,6 +147,7 @@ h3 {
 .project-img {
   margin: auto;
   width: 90%;
+  max-height: 340px;
 }
 img {
   display:block;
