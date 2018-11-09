@@ -16,7 +16,7 @@ $(".navbar a").on('click', function(event) {
   if (this.hash !== "") {
 
     // Prevent default anchor click behavior
-    event.preventDefault();
+    //event.preventDefault();
 
     // Store hash
     var hash = this.hash;
