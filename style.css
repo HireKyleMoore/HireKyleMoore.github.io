@@ -40,7 +40,7 @@ nav a:hover:before {
   transform: scaleX(1);
 }
 
-.active {
+.active:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
