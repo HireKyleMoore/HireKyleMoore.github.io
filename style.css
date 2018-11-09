@@ -38,7 +38,13 @@ nav a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
-} 
+}
+
+nav a .active {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
 
 .fixed-top.scrolled {
   background-color: #7A7B7B !important;
