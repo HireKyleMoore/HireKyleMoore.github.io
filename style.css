@@ -372,6 +372,9 @@ label {
   #contact-content {
     font-size: 20px;
   }
+  body {
+    padding-top: 50px;
+  }
 }
 @media only screen and (max-width: 992px) { /*responsive styling on contact section*/
   #contact-right {
