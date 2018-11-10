@@ -445,7 +445,9 @@ label {
   text-align: center;
 
 }
-
+a {
+  color: inherit;
+}
 .hvr-icon-fade {
   display: inline-block;
   vertical-align: middle;
