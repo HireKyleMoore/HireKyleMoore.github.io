@@ -451,7 +451,10 @@ label {
 }
 #footer a {
   color: black;
-  
+
+}
+#footer a i {
+  text-decoration: none;
 }
 .hvr-icon-fade {
   display: inline-block;
