@@ -184,8 +184,8 @@ img {
 
 }
 #contact-right {
-  margin-left:10px;
-  margin-right: -10px;
+  margin-right: auto;
+  margin-left: auto;
 }
 h2 {
   margin-bottom: 60px !important;
